@@ -1,0 +1,13 @@
+.body-container {
+    width: 94%;
+    margin: auto;
+    min-height: calc(100vh - 120px);
+    background-color: var(--simple-light-color);
+}
+
+.body-fixed {
+    position: static;
+    width: 100%;
+    margin: auto;
+    padding-top: 97px;
+}

@@ -1,0 +1,39 @@
+.cards-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(210px, max-content));
+    grid-gap: 15px;
+    justify-content: start;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: solid 3px white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-image-container {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-grow: 5;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-items: center;
+    background-color: var(--greyed-color);
+}
+
+.card-image {
+    max-width: 100%;
+    max-height: 100%;
+}

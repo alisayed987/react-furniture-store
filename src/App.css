@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #ecd0a6ff;
+  --secondary-color: #415a77ff;
+  --text-color: wheat;
+  --dark-color: #D8838A;
+  --light-color: #778da9ff;
+  --simple-light-color: #e0e1ddff;
+  --headtext-color: #f3f7f6ff;
+  --simple-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+b {--cultured: #f3f7f6ff;
+--beau-blue: #ccdce0ff;
+--lavender-gray: #b5b0bfff;
+--rose-dust: #a36678ff;
+--deep-space-sparkle: #416262ff;
+--claret: #641626ff;}
+b {
+  --deep-champagne: #ecd0a6ff;
+--bdazzled-blue: #415a77ff;
+--quinacridone-magenta: #81375dff;
+--shadow-blue: #778da9ff;
+--platinum: #e0e1ddff;
+}

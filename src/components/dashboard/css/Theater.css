@@ -1,0 +1,43 @@
+.theater-container {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 330px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: solid 4px var(--headtext-color);
+    border-top: solid 4px var(--headtext-color);
+}
+
+#float {
+    position: relative;
+    -webkit-animation: floatBubble 12s infinite  normal ease-out;
+    animation: floatBubble 12s infinite  normal ease-out;
+}
+
+@-webkit-keyframes floatBubble {
+    0% {
+        top: -80px;
+    }
+    50% {
+        top: -120px;
+    }
+    100% {
+        top: -80px;
+    }
+}
+
+@keyframes floatBubble {
+    0% {
+        top: -80px;
+    }
+    50% {
+        top: -120px;
+    }
+    100% {
+        top: -80px;
+    }
+}
